@@ -4,7 +4,7 @@
 * upgrade terrafrom to 0.13,  
 * use google v3.89.0
 * use mongodbatlas v0.9.1 
-* create Azure vm with Mongo shell
+* create Google Compute vm with Mongo shell installed
 
 ## Background
 Based on an small Proof of Concept to make Atlas available via VNet peering in Google in the same region, this script was generalized to automate all steps. Assumption was to automate each step, including the scripts to define custom roles for peering.  The documentation on how to do this in several manual steps is here: https://docs.atlas.mongodb.com/security-vpc-peering/
